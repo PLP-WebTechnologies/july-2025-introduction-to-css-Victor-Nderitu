@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Basics & The Box Model</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="site-header">
+        <h1>Understanding CSS & The Box Model</h1>
+        <p class="subtitle">A practical demonstration of fundamental CSS concepts</p>
+    </header>
+
+    <nav class="main-nav">
+        <ul>
+            <li><a href="#box-model">Box Model</a></li>
+            <li><a href="#typography">Typography</a></li>
+            <li><a href="#layout">Layout</a></li>
+            <li><a href="#buttons">Buttons</a></li>
+        </ul>
+    </nav>
+
+    <main class="content-area">
+        <section id="box-model" class="card">
+            <h2>The CSS Box Model</h2>
+            <p>Every element in web design is a rectangular box. The CSS box model describes how these boxes are sized and spaced.</p>
+            
+            <div class="box-model-demo">
+                <div class="margin-box">
+                    Margin
+                    <div class="border-box">
+                        Border
+                        <div class="padding-box">
+                            Padding
+                            <div class="content-box">
+                                Content
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="typography" class="card">
+            <h2>Typography & Colors</h2>
+            <p>CSS provides powerful tools for styling text and applying colors throughout your document.</p>
+            
+            <div class="typography-examples">
+                <h3>Heading Levels</h3>
+                <h1>Heading 1</h1>
+                <h2>Heading 2</h2>
+                <h3>Heading 3</h3>
+                <h4>Heading 4</h4>
+                
+                <h3>Text Styles</h3>
+                <p class="bold">This text is bold.</p>
+                <p class="italic">This text is italic.</p>
+                <p class="underline">This text is underlined.</p>
+            </div>
+        </section>
+
+        <section id="layout" class="card">
+            <h2>Layout Techniques</h2>
+            <p>Understanding the box model is essential for creating effective layouts.</p>
+            
+            <div class="layout-examples">
+                <div class="layout-box">Box 1</div>
+                <div class="layout-box">Box 2</div>
+                <div class="layout-box">Box 3</div>
+            </div>
+        </section>
+
+        <section id="buttons" class="card">
+            <h2>Button Styles</h2>
+            <p>Buttons are interactive elements that can be styled using CSS.</p>
+            
+            <div class="button-examples">
+                <button class="primary-btn">Primary Button</button>
+                <button class="secondary-btn">Secondary Button</button>
+                <button class="outline-btn">Outline Button</button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; 2023 CSS Basics Demo. All rights reserved.</p>
+    </footer>
+</body>
+</html>
